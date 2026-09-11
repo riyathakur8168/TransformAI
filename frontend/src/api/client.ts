@@ -69,3 +69,4 @@ export async function downloadFile(endpoint: string, bodyData: any, defaultFilen
   window.URL.revokeObjectURL(url);
   document.body.removeChild(a);
 }
+
